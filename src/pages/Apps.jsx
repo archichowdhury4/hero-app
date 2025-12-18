@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { FaStar, FaDownload, FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router";
-import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
-const App = () => {
+
+const Apps = () => {
   const [appsData, setAppsData] = useState([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
@@ -28,7 +28,7 @@ const App = () => {
     app.title.toLowerCase().includes(search.toLowerCase())
   );
 
-   if (loading) return <LoadingSpinner />;
+   if (loading) return <p>Loading</p>;
 
   return (
     <div className="p-5">
@@ -103,4 +103,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Apps;

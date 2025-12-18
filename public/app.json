@@ -1,0 +1,272 @@
+[
+  {
+    "image": "./assests/fitness pro.jpg",
+    "title": "Fitness Pro",
+    "companyName": "HealthTech Ltd",
+    "id": 1,
+    "description": "A comprehensive fitness tracking app with personalized workouts and diet plans.",
+    "size": 120,
+    "reviews": 450,
+    "ratingAvg": 4.5,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 215 }
+    ]
+  },
+  {
+    "image": "./assests/Budget Buddy.jpg",
+    "title": "Budget Buddy",
+    "companyName": "FinanceSoft",
+    "id": 2,
+    "description": "Track expenses, create budgets, and save money effortlessly.",
+    "size": 85,
+    "reviews": 320,
+    "ratingAvg": 4.2,
+    "downloads": 9500,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 130 }
+    ]
+  },
+  {
+    "image": "./assests/Travel Explorer.png",
+    "title": "Travel Explorer",
+    "companyName": "Wanderlust Inc",
+    "id": 3,
+    "description": "Plan your trips, find attractions, and discover hidden gems around the world.",
+    "size": 140,
+    "reviews": 580,
+    "ratingAvg": 4.7,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 335 }
+    ]
+  },
+  {
+    "image": "./assests/Meditation Calm.jpg",
+    "title": "Meditation Calm",
+    "companyName": "ZenSoft",
+    "id": 4,
+    "description": "Guided meditations, breathing exercises, and sleep stories to reduce stress.",
+    "size": 95,
+    "reviews": 410,
+    "ratingAvg": 4.6,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 210 }
+    ]
+  },
+  {
+    "image": "./assests/Recipe Master.webp",
+    "title": "Recipe Master",
+    "companyName": "Cookify",
+    "id": 5,
+    "description": "Explore thousands of recipes and create your personalized cookbook.",
+    "size": 110,
+    "reviews": 670,
+    "ratingAvg": 4.8,
+    "downloads": 22000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 428 }
+    ]
+  },
+  {
+    "image": "./assests/Language Learner.png",
+    "title": "Language Learner",
+    "companyName": "EduApps",
+    "id": 6,
+    "description": "Learn new languages through fun games, lessons, and quizzes.",
+    "size": 130,
+    "reviews": 520,
+    "ratingAvg": 4.3,
+    "downloads": 17000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 240 }
+    ]
+  },
+  {
+    "image": "./assests/Daily Planner.png",
+    "title": "Daily Planner",
+    "companyName": "Productivity Hub",
+    "id": 7,
+    "description": "Organize your tasks, set reminders, and boost productivity every day.",
+    "size": 75,
+    "reviews": 390,
+    "ratingAvg": 4.1,
+    "downloads": 12500,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "./assests/Photo Editor Pro.d1cc3de4-7d82-4117-aef1-9c2b200a43a5",
+    "title": "Photo Editor Pro",
+    "companyName": "SnapTech",
+    "id": 8,
+    "description": "Edit photos like a professional with filters, effects, and collage tools.",
+    "size": 150,
+    "reviews": 880,
+    "ratingAvg": 4.9,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 612 }
+    ]
+  },
+  {
+    "image": "./assests/Weather Now.jpg",
+    "title": "Weather Now",
+    "companyName": "ClimateSoft",
+    "id": 9,
+    "description": "Get accurate weather forecasts, live radar maps, and severe weather alerts.",
+    "size": 60,
+    "reviews": 300,
+    "ratingAvg": 4.0,
+    "downloads": 10000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 110 }
+    ]
+  },
+  {
+    "image": "./assests/Music Streamer.jpg",
+    "title": "Music Streamer",
+    "companyName": "TuneTech",
+    "id": 10,
+    "description": "Stream millions of songs and create playlists with high-quality audio.",
+    "size": 180,
+    "reviews": 950,
+    "ratingAvg": 4.6,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 585 }
+    ]
+  },
+  {
+    "image": "./assests/Mind Games.png",
+    "title": "Mind Games",
+    "companyName": "BrainBoost",
+    "id": 11,
+    "description": "Challenge your brain with puzzles, quizzes, and strategy games.",
+    "size": 140,
+    "reviews": 480,
+    "ratingAvg": 4.4,
+    "downloads": 18000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 230 }
+    ]
+  },
+  {
+    "image": "./assests/MediaHub.png",
+    "title": "News Daily",
+    "companyName": "MediaHub",
+    "id": 12,
+    "description": "Stay updated with the latest news from around the world.",
+    "size": 100,
+    "reviews": 360,
+    "ratingAvg": 4.1,
+    "downloads": 14000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 155 }
+    ]
+  },
+  {
+    "image": "./assests/Shopping Genie.jpg",
+    "title": "Shopping Genie",
+    "companyName": "ShopSmart",
+    "id": 13,
+    "description": "Compare prices, get discounts, and shop smarter from multiple stores.",
+    "size": 125,
+    "reviews": 610,
+    "ratingAvg": 4.5,
+    "downloads": 23000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 305 }
+    ]
+  },
+  {
+    "image": "./assests/Workout Tracker.jpg",
+    "title": "Workout Tracker",
+    "companyName": "FitLife",
+    "id": 14,
+    "description": "Track workouts, monitor progress, and stay motivated to achieve your goals.",
+    "size": 110,
+    "reviews": 420,
+    "ratingAvg": 4.3,
+    "downloads": 16000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 130 },
+      { "name": "5 star", "count": 185 }
+    ]
+  },
+  {
+    "image": "./assests/Movie Hub.jpg",
+    "title": "Movie Hub",
+    "companyName": "CineWorld",
+    "id": 15,
+    "description": "Browse movies, watch trailers, and get showtime notifications.",
+    "size": 135,
+    "reviews": 500,
+    "ratingAvg": 4.4,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 245 }
+    ]
+  }
+]
