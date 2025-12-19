@@ -33,7 +33,7 @@ const Navbar = () => {
           >
             <li><NavLink to="/"  className='bg-primary-text'>Home</NavLink></li>
             <li><NavLink to="apps" >Apps</NavLink></li>
-            <li><NavLink to="instalation" >Installation</NavLink></li>
+            <li><NavLink to="installation" >Installation</NavLink></li>
           </ul>
         </div>
 
