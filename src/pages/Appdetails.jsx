@@ -5,8 +5,10 @@ import download from "../assets/icon-downloads.png";
 import star from "../assets/icon-ratings.png";
 import review from "../assets/icon-review.png";
 import LoadingSpinner from "../Components/loadingSpinner";
+import DocumentTitle from "../Components/DocumentTitle";
 
 export default function AppDetails() {
+   DocumentTitle('AppsDetails | MyHeroApp');
   const { id } = useParams();
   const location = useLocation();
 

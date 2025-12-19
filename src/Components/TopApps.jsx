@@ -7,54 +7,61 @@ const TopApps = () => {
 
   useEffect(() => {
     fetch("/app.json")
-      .then(res => res.json())
-      .then(data => {
+      .then((res) => res.json())
+      .then((data) => {
         setTopApps(data.slice(0, 8)); 
-      });
+      })
+      .catch((err) => console.error("Error fetching apps:", err));
   }, []);
 
   return (
-    <div className="mb-10 px-5 md:px-20">  
-      <h2 className="text-xl font-bold mb-4">Top Apps</h2>
+    <div className="mb-10 px-5 md:px-20 mt-10">
+      {/* Header */}
+      <div className="text-center mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold mb-2">Trending Apps</h2>
+        <p className="text-gray-500 md:text-lg">
+          Explore the most popular apps on the market, developed by us
+        </p>
+      </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6 ">
-        {topApps.map(app => (
-          
-          <Link 
+      {/* Apps Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        {topApps.map((app) => (
+          <Link
             key={app.id}
             to={`/apps/${app.id}`}
-            state={{ app }}      
-            className="shadow-xl p-3 rounded cursor-pointer hover:shadow-md transition block"
+            state={{ app }}
+            className="bg-white shadow-lg rounded-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
           >
             <img
               src={app.image}
-              className="w-full h-32 object-cover rounded"
               alt={app.title}
+              className="w-full h-36 md:h-40 object-cover"
             />
+            <div className="p-3">
+              <h3 className="text-lg font-semibold mb-2">{app.title}</h3>
 
-            <h3 className="mt-2 font-semibold">{app.title}</h3>
-
-            <div className="flex justify-between items-center text-sm mt-1">
-              <div className="flex items-center gap-1 text-green-600 font-semibold">
-                <FaDownload size={14} /> {app.downloads}M
-              </div>
-
-              <div className="flex items-center gap-1 text-orange-500 font-semibold">
-                <FaStar size={14} /> {app.ratingAvg}
+              <div className="flex justify-between items-center text-sm">
+                <span className="flex items-center gap-1 text-green-600 font-semibold">
+                  <FaDownload size={14} /> {app.downloads}M
+                </span>
+                <span className="flex items-center gap-1 text-orange-500 font-semibold">
+                  <FaStar size={14} /> {app.ratingAvg}
+                </span>
               </div>
             </div>
           </Link>
-
         ))}
       </div>
 
-      <div className="text-center mt-4">
+      {/* Show All Button */}
+      <div className="text-center mt-8">
         <Link
           to="/apps"
-          className="inline-block bg-primary text-white font-semibold px-6 py-2 rounded-xl
-                     shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-300"
+          className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-2xl
+                     shadow-md hover:shadow-lg transition-all duration-300"
         >
-          Show All
+          Show All Apps
         </Link>
       </div>
     </div>

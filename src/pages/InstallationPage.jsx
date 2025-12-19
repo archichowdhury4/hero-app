@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { FaDownload, FaStar } from "react-icons/fa";
 import Swal from "sweetalert2";
+import DocumentTitle from "../Components/DocumentTitle";
 
 const InstallationPage = () => {
+     DocumentTitle('InstallationPage | MyHeroApp');
   const [apps, setApps] = useState([]);
   const [loading, setLoading] = useState(true);
   const [sortOrder, setSortOrder] = useState("high");

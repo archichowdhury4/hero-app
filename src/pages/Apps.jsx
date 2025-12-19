@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import { FaStar, FaDownload, FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router";
 import LoadingSpinner from "../Components/loadingSpinner";
-
+import  DocumentTitle from "../Components/DocumentTitle"
 
 const Apps = () => {
+   DocumentTitle('Apps | MyHeroApp');
   const [appsData, setAppsData] = useState([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
