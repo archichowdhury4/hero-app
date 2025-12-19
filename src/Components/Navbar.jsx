@@ -56,7 +56,7 @@ const Navbar = () => {
 
     
       <div className="navbar-end">
-        <a href="https://github.com/prachi23chowdhury" 
+        <a href="https://github.com/archichowdhury4" 
     target="_blank"  className="btn bg-primary text-white px-6 rounded-lg">
          <FaGithub></FaGithub> Contribute
         </a>

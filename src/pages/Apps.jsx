@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaStar, FaDownload, FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router";
+import LoadingSpinner from "../Components/loadingSpinner";
 
 
 const Apps = () => {
@@ -28,15 +29,22 @@ const Apps = () => {
     app.title.toLowerCase().includes(search.toLowerCase())
   );
 
-   if (loading) return <p>Loading</p>;
+  if (loading)
+    return (
+      <div className="flex justify-center items-center py-20">
+        <LoadingSpinner />
+      </div>
+    );
 
   return (
     <div className="p-5">
+      {/* Header */}
       <div className="text-center mb-5">
         <h1 className="text-3xl font-bold">Our Apps</h1>
         <p className="text-gray-500">Discover the best apps for your needs</p>
       </div>
 
+      {/* Search and Total Apps */}
       <div className="flex justify-between items-center mb-5">
         <span className="font-bold">({filteredApps.length}) Total Apps</span>
 
@@ -51,23 +59,24 @@ const Apps = () => {
             onChange={(e) => {
               setSearch(e.target.value);
               setSearchLoading(true);
-              setTimeout(() => setSearchLoading(false), 300);
+              setTimeout(() => setSearchLoading(false), 300); 
             }}
           />
         </div>
       </div>
 
-   
+      {/* App Grid */}
       <div className="relative">
         {searchLoading && (
-  <div className="flex items-center justify-center py-5">
-    <LoadingSpinner />
-  </div>
-)}
-       
+          <div className="flex items-center justify-center py-5">
+            <LoadingSpinner />
+          </div>
+        )}
 
         {filteredApps.length === 0 ? (
-          <p className="text-center text-5xl text-gray-500 py-24">No App Found</p>
+          <p className="text-center text-2xl text-gray-500 py-24">
+            No App Found
+          </p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             {filteredApps.map((app) => (
