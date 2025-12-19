@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from "../../public/assests/hero.png";
+import hero from "../../public/assets/hero.png";
 
 const TrustedApps = () => {
   return (

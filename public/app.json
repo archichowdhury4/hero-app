@@ -1,6 +1,6 @@
 [
   {
-    "image": "./assests/fitness pro.jpg",
+    "image": "/assets/fitness pro.jpg",
     "title": "Fitness Pro",
     "companyName": "HealthTech Ltd",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "./assests/Budget Buddy.jpg",
+    "image": "/assets/Budget Buddy.jpg",
     "title": "Budget Buddy",
     "companyName": "FinanceSoft",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "./assests/Travel Explorer.png",
+    "image": "/assets/Travel Explorer.png",
     "title": "Travel Explorer",
     "companyName": "Wanderlust Inc",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "./assests/Meditation Calm.jpg",
+    "image": "/assets/Meditation Calm.jpg",
     "title": "Meditation Calm",
     "companyName": "ZenSoft",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "./assests/Recipe Master.webp",
+    "image": "/assets/Recipe Master.webp",
     "title": "Recipe Master",
     "companyName": "Cookify",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "./assests/Language Learner.png",
+    "image": "/assets/Language Learner.png",
     "title": "Language Learner",
     "companyName": "EduApps",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "./assests/Daily Planner.png",
+    "image": "/assets/Daily Planner.png",
     "title": "Daily Planner",
     "companyName": "Productivity Hub",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "./assests/Photo Editor Pro.d1cc3de4-7d82-4117-aef1-9c2b200a43a5",
+    "image": "/assets/Photo Editor Pro.d1cc3de4-7d82-4117-aef1-9c2b200a43a5",
     "title": "Photo Editor Pro",
     "companyName": "SnapTech",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "./assests/Weather Now.jpg",
+    "image": "/assets/Weather Now.jpg",
     "title": "Weather Now",
     "companyName": "ClimateSoft",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "./assests/Music Streamer.jpg",
+    "image": "/assets/Music Streamer.jpg",
     "title": "Music Streamer",
     "companyName": "TuneTech",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "./assests/Mind Games.png",
+    "image": "/assets/Mind Games.png",
     "title": "Mind Games",
     "companyName": "BrainBoost",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "./assests/MediaHub.png",
+    "image": "/assets/MediaHub.png",
     "title": "News Daily",
     "companyName": "MediaHub",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "./assests/Shopping Genie.jpg",
+    "image": "/assets/Shopping Genie.jpg",
     "title": "Shopping Genie",
     "companyName": "ShopSmart",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "./assests/Workout Tracker.jpg",
+    "image": "/assets/Workout Tracker.jpg",
     "title": "Workout Tracker",
     "companyName": "FitLife",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "./assests/Movie Hub.jpg",
+    "image": "/assets/Movie Hub.jpg",
     "title": "Movie Hub",
     "companyName": "CineWorld",
     "id": 15,

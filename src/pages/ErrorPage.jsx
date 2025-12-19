@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { motion } from "framer-motion";
-import errorImg from "../../public/assests/404.jpg"
+import errorImg from "../../public/assets/404.jpg"
 const ErrorPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-orange-50 to-white px-4">
