@@ -11,6 +11,7 @@ import InstallationPage from '../pages/InstallationPage';
   {
     path: "/",
     Component: Root,
+    errorElement: ErrorPage,
     children: [
       {
         index:true,

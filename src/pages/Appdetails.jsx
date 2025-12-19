@@ -15,14 +15,14 @@ export default function AppDetails() {
   const [installed, setInstalled] = useState(false);
   const [notFound, setNotFound] = useState(false);
 
-  // 🔹 Check installed apps
+  
   useEffect(() => {
     const installedApps =
       JSON.parse(localStorage.getItem("installedApps")) || [];
     setInstalled(installedApps.includes(id));
   }, [id]);
 
-  // 🔹 Fetch app data if not passed from state
+
   useEffect(() => {
     if (!app) {
       setLoading(true);
@@ -80,12 +80,12 @@ export default function AppDetails() {
     });
   };
 
-  // 🔹 Loading state
+  
   if (loading) {
     return <LoadingSpinner />;
   }
 
-  // 🔹 App Not Found UI
+  
   if (notFound) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center text-center px-4">
@@ -108,7 +108,7 @@ export default function AppDetails() {
     );
   }
 
-  // 🔹 App Details UI
+
   return (
     <div className="w-full p-4 md:p-8 min-h-screen text-gray-800">
       {/* App Details Card */}
