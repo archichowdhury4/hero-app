@@ -20,7 +20,7 @@ https://myhero-apps.netlify.app/
 ## 📦 Dependencies
 - react
 - react-router
-- 
+- daisyui
 
 ## ⚙️ How to Run Locally
 1. Clone the repository
